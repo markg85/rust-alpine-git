@@ -1,3 +1,3 @@
 FROM rust:alpine
 
-RUN apk add --no-cache git gcompat curl jq
+RUN apk add --no-cache git gcompat curl jq musl-dev
